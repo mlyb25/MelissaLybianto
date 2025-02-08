@@ -1,0 +1,33 @@
+Question 1:
+// p.then(value => console.log(value));
+
+Question 2:
+// p.catch(error => console.log(error));
+
+Question 3:
+// p. then (console.log);
+
+Question 4:
+// p.then (({name})=> console.log(name));
+
+Question 5:
+// p.catch (error => console.log(error.toString()));
+
+Question 6:
+// p.finally(() => console.log("Promise settled"));
+
+Question 7:
+// p.then (value => console.log(value*2));
+
+Question 8:
+// p.catch(error => console.log (0));
+
+Question 9:
+// Promise.all(promises).then((values)=>{console.log(values);});
+
+Question 10:
+// Promise.race(promises).then((value) => {console.log(value);});
+
+Bonus Question:
+// const promises = [new Promise(resolve => setTimeout(() => resolve('World'), 1000)), ];
+// p.then((message) => {console.log('Hello ' + message);});
